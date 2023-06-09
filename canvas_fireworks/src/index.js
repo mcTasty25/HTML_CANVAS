@@ -78,7 +78,7 @@ window.addEventListener('click', function (event) {
   mouse.x = event.clientX
   mouse.y = event.clientY
 
-  const particleCount = 300
+  const particleCount = 100
   const angleIncrement = (Math.PI * 2) / particleCount
 
   for (let i = 0; i < particleCount; i++) {
