@@ -65,7 +65,7 @@ const maxDistance = 200
 for (let i = 0; i < dostsNo; i++) {
     const x = Math.random() * canvas.width;
     const y = Math.random() * canvas.height;
-    const speed = 2
+    const speed = 1
     dots.push(new Dot(x, y, speed, `hsl(${Math.random() * 360},100%,50%)`))
 }
 
